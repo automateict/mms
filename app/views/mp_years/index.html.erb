@@ -1,0 +1,32 @@
+<div class="panel-heading">
+    Payment Years
+</div>
+<div class="panel-body">
+  <table class="table table-bordered table-striped table-hover dataTable js-exportable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>From</th>
+      <th>To</th>
+      <th>Status</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mp_years.each do |mp_year| %>
+      <tr>
+        <td><%= mp_year.name %></td>
+        <td><%= mp_year.from %></td>
+        <td><%= mp_year.to %></td>
+        <td><%= mp_year.payment_year_status %></td>
+        <td><%= link_to 'Edit', edit_mp_year_path(mp_year) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br>
+      <%= link_to new_mp_year_path do %>
+        <button type="button" class="btn btn-outline btn-primary"><i class="fa fa-plus"></i> New Payment Year</button>
+      <% end %>
+</div>

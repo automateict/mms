@@ -1,0 +1,154 @@
+#user_email, #user_password{
+    width: 100%;
+}
+.menu li a .info {
+    width: 100%;
+}
+ul.wysihtml5-toolbar > li {
+    margin: 0;
+}
+
+.wizard .content{
+    overflow: visible;
+}
+.wizard, .tabcontrol{
+    overflow: visible;
+}
+fieldset{
+    background: #ffffff;
+    overflow: visible;
+}
+label.error{
+    margin-left: 30px;
+}
+legend.empty{
+    margin-bottom: 0px;
+}
+fieldset.sub_form{
+    padding: 5px 20px;
+    border: 1px solid #d4d3f2;
+    margin: 20px 5px;
+}
+.tab-pane {
+    background: #fff;
+}
+.sub_form legend{
+    border: none;
+    width: auto;
+}
+
+.transparent_label{
+    display: none;
+}
+form label{
+    text-align: right;
+}
+.form-actions{
+    border-top: 1px solid #eee;
+    text-align: center;
+    padding: 10px;
+}
+
+.details-label{
+    font-weight: bold;
+}
+.help-block{
+    color: red;
+}
+
+.js-exportable{
+    background: #ffffff;
+}
+
+.icheckbox_square-blue, .iradio_square-blue {
+    margin-right: 2px;
+}
+.form-check{
+    margin-right: 10px;
+}
+.columned_list > .form-check{
+    float: left;
+    width: 33%;
+}
+
+.form-group .form-control{
+    width: inherit;
+}
+#new_user .form-control{
+    width: -moz-available;
+}
+.wizard .content{
+    overflow: -moz-hidden-unscrollable;
+    overflow: visible;
+    background: #ffffff;
+}
+fieldset{
+}
+
+.panel-body{
+}
+.panel-close{
+    display: none;
+}
+.fc-title{
+    white-space: initial;
+}
+.transparent_label{
+    color: transparent;
+}
+.invalid-feedback{
+    color: red;
+}
+
+.left_form{
+    border-right: 1px solid silver;
+}
+form > label{
+    font-size: 12px;
+}
+.card{
+    min-height: auto;
+}
+
+.details-label{
+    font-weight: bold;
+}
+.help-block{
+    color: red;
+}
+
+/*flash*/
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+}
+
+.alert-alert {
+    background-color: darksalmon;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+}
+
+.alert-notice {
+    background-color: darkcyan;
+    border-color: #00b0e4;
+    text-align: left;
+}
+
+.site-blocks-cover.overflow-hidden {
+    overflow: hidden;
+    background-color: transparent;
+    background: url(/assets/emwalanding.jpg), #2992a7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+<% if current_user and current_user.has_role('Member') and current_user.person.try(:status)==true %>
+  <li>
+    <%= link_to current_user.person do %>
+        <i class="material-icons">person</i>
+        <span class="nav-label">My Profile</span>
+    <% end %>
+  </li>
+
+  <li>
+    <%= link_to member_fees_payments_path(type: 'All') do %>
+        <i class="material-icons">payment</i>
+        <span class="nav-label">Membership Fees</span>
+    <% end %>
+  </li>
+
+  <li>
+    <a href="http://localhost/cpd">
+        <i class="material-icons">person</i>
+        <span class="nav-label">My CPD</span>
+    </a>
+  </li>
+
+  <li>
+    <%= link_to events_path do %>
+        <i class="material-icons">event</i>
+        <span class="nav-label">Events</span>
+    <% end %>
+  </li>
+
+  <li>
+    <%= link_to trainings_path do %>
+        <i class="material-icons">library_books</i>
+        <span class="nav-label">Trainings</span>
+    <% end %>
+  </li>
+
+<% end %>
